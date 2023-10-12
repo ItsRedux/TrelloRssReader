@@ -1,0 +1,24 @@
+# Ignore environment variables, which can include API keys and secrets
+.env
+
+# Ignore node modules
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore the npm debug log
+npm-debug.log*
+
+# Ignore Glitch assets
+.glitch-assets
+
+# Ignore the .data directory
+.data
+
+# Ignore the .shrinkwrap directory
+.shrinkwrap/
